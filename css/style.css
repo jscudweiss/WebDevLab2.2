@@ -1,0 +1,14 @@
+#splash img{
+    width: 50px;
+    float: left;
+}
+
+#cardByYear img{
+   max-width: 100%;
+}
+
+#yearlyCards{
+    margin-top: 5%;
+    margin-bottom: 5%;
+
+}
