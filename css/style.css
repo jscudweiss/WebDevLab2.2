@@ -1,14 +1,45 @@
+:root {
+    /* CSS HEX */
+    --flame: #E4572E;
+    --space_cadet: #29335C;
+    --marigold: #F3A712;
+    --olivine: #A8C686;
+    --air_superiority_blue: #669BBC;
+
+}
+
+#splash, #cardByYear, #yearSelect, #cards {
+    font-family: 'RocknRoll One', sans-serif;
+}
+
 #splash img{
     width: 50px;
     float: left;
 }
 
-#cardByYear img{
-   max-width: 100%;
+#cardByYear img {
+    max-width: 100%;
+}
+#cardByYear .btn{
+    width: 100%;
 }
 
+#yearSelect{
+    background-color: var(--space_cadet);
+    color: white;
+}
+#yearSelect .btn{
+    width: 250px;
+}
+#yearSelect .row{
+    text-align: center;
+}
+
+#splash{
+    background-color: var(--marigold);
+}
 #yearlyCards{
     margin-top: 5%;
     margin-bottom: 5%;
-
+    text-align: center;
 }
