@@ -8,8 +8,12 @@
 
 }
 
-#splash, #cardByYear, #yearSelect, #cards {
-    font-family: 'RocknRoll One', sans-serif;
+body {
+    font-family: 'Anton', sans-serif;
+}
+footer {
+    font-family: 'Anton', sans-serif;
+    background-color: var(--marigold);
 }
 
 #splash img{
@@ -25,7 +29,7 @@
 }
 
 #yearSelect{
-    background-color: var(--space_cadet);
+    background-color: var(--air_superiority_blue);
     color: white;
 }
 #yearSelect .btn{
@@ -41,5 +45,25 @@
 #yearlyCards{
     margin-top: 5%;
     margin-bottom: 5%;
+    text-align: center;
+}
+.card {
+    width: 100%;
+}
+.carousel-item img{
+    height: 25rem;
+    max-width: 100%;
+    margin: auto;
+}
+#cards{
+    font-family: 'Stick', sans-serif;
+}
+
+.CardTitle{
+    background-color: var(--space_cadet)!important;
+    color: var(--flame)!important;
+}
+
+.list-group-item{
     text-align: center;
 }
