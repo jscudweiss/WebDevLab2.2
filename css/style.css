@@ -38,6 +38,9 @@ footer {
 #yearSelect .row{
     text-align: center;
 }
+#yearSelect .col-s-12{
+    margin-bottom: 3%;
+}
 
 #splash{
     background-color: var(--marigold);
