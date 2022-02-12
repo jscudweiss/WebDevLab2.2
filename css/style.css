@@ -46,8 +46,8 @@ footer {
     background-color: var(--marigold);
 }
 #yearlyCards{
-    margin-top: 5%;
-    margin-bottom: 5%;
+    margin-top: 10%;
+    margin-bottom: auto;
     text-align: center;
 }
 .card {
