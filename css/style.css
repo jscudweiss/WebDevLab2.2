@@ -5,29 +5,25 @@
     --marigold: #F3A712;
     --olivine: #A8C686;
     --air_superiority_blue: #669BBC;
-
 }
-
 body {
     font-family: 'Anton', sans-serif;
 }
 footer {
     font-family: 'Anton', sans-serif;
     background-color: var(--marigold);
+    text-align: center;
 }
-
 #splash img{
+    margin-top: 1%;
     width: 50px;
-    float: left;
 }
-
 #cardByYear img {
     max-width: 100%;
 }
 #cardByYear .btn{
     width: 100%;
 }
-
 #yearSelect{
     background-color: var(--air_superiority_blue);
     color: white;
@@ -40,10 +36,6 @@ footer {
 }
 #yearSelect .col-s-12{
     margin-bottom: 3%;
-}
-
-#splash{
-    background-color: var(--marigold);
 }
 #yearlyCards{
     margin-top: 10%;
